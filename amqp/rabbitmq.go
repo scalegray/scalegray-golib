@@ -130,13 +130,11 @@ type rabbitmqQFactory struct {
 }
 
 func (factory *rabbitmqQFactory) Get(name string) (PubSubQ, error) {
-        fmt.Println("Entered getz")
 
-	return &rabbitmqQ{name: name, prefix: "datadust", factory: factory}, nil
+	return &rabbitmqQ{name: name, prefix: "scalegray", factory: factory}, nil
 }
 
 func (factory *rabbitmqQFactory) Dial() (*amqp.Connection, error) {
-        fmt.Println("Entered dialz")
 
 	addr, err := config.GetString("amqp:url")
 	if err != nil {
