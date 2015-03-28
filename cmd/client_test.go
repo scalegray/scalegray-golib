@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"bytes"
+	//"bytes"
 	ttesting "github.com/scalegray/sg-golib/cmd/testing"
 	"gopkg.in/check.v1"
 	"net/http"
