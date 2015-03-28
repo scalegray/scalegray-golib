@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/scalegray/gs-golib/fs"
+	"github.com/scalegray/sg-golib/fs"
 	"io"
 	"launchpad.net/gnuflag"
 	"os"
