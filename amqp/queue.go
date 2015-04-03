@@ -49,8 +49,6 @@ var factories = map[string]QFactory{
 	"rabbitmq": &rabbitmqQFactory{},
 }
 
-// Register registers a new queue factory. This is how one would add a new
-// queue to tsuru.
 func Register(name string, factory QFactory) {
 	factories[name] = factory
 }

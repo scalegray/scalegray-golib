@@ -39,6 +39,16 @@
 			"ImportPath": "gopkg.in/v1/yaml",
 			"Rev": "9f9df34309c04878acc86042b16630b0f696e1de"
 		},
+                 {
+			"ImportPath": "github.com/mattbaird/elastigo/core",
+			"Comment": "weekly-56",
+			"Rev": "6d6193993d7a3e4f8f60e57fe9b3b06885ccae4c"
+		},
+                {
+			"ImportPath": "github.com/mattbaird/elastigo/api",
+			"Comment": "weekly-56",
+			"Rev": "6d6193993d7a3e4f8f60e57fe9b3b06885ccae4c"
+		},
 		{
 			"ImportPath": "launchpad.net/gnuflag",
 			"Comment": "13",
