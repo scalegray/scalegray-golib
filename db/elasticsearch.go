@@ -14,7 +14,7 @@ func Index(data []byte){
 
   api.Domain = "localhost"
   fmt.Println("Entered inside elasticgo file...lets do this")
-  response, _ := core.Index("scalegraydata", "sg-type", "3", nil, data)
+  response, _ := core.Index("scalegraydata", "sg-type", nil, data)
    fmt.Println(response)
   fmt.Println("Done pushing the data into elastic search..woohoo!")
 }
